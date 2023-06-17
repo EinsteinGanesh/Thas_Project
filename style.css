@@ -1,0 +1,43 @@
+.bi{
+    font-size: xx-large; color: aliceblue;
+}
+
+.sidebar {
+    height: 100vh;
+    min-height: 0;
+    float: left;
+  }
+
+  .sidebar {
+    width: 4em;
+    position: fixed;
+  }
+
+  .main-content{
+    margin-left: 4em;
+  }
+
+  #media-name{
+    font-size: large;
+  }
+  .card-title{
+    font-size: 0.7em;
+    
+  }
+  .card-text{
+    font-size: 0.6em;
+    font-weight: 700;
+    
+  }
+
+  .card-body{
+    padding-top: 2px;
+  }
+.card:hover{
+  border: 1px solid blueviolet;
+}
+ 
+
+  
+  
+  
