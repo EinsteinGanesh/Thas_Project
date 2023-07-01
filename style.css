@@ -3,7 +3,7 @@
 }
 
 .sidebar {
-    height: 100vh;
+    height: 110vh;
     min-height: 0;
     float: left;
     position: sticky;
@@ -73,7 +73,7 @@
 
 @media screen and (max-width:576px) {
   .sidebar {
-    height: 730vh;
+    height: 340vh;
     min-height: 0;
     float: left;
     position: sticky;
@@ -88,5 +88,52 @@
   .xs-card{
     width: 33.3%;
   }
- 
+  .main-content {
+    margin-left: 3em;
+}
+}
+
+@media screen and (max-width:768px) {
+  .sidebar {
+    height: 340vh;
+    min-height: 0;
+    float: left;
+    position: sticky;
+    
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:991px) {
+  .sidebar {
+    height: 290vh;
+    min-height: 0;
+    float: left;
+    position: sticky;
+    
+  }
+}
+
+@media screen and (min-width:350px) and (max-width:576px) {
+  .schedule-sd{
+    display: block !important;
+  }
+
+  .schedule-wrapper{
+    margin-top: 6px;
+  }
+
+  .publish-btn{
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .btn-line{
+    margin-top: 6px;
+  }
+
+  #media-prw{
+    text-align: center;
+    color: #077239;
+  }
+
 }
