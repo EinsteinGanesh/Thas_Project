@@ -3,11 +3,18 @@
 }
 
 .sidebar {
-    height: 120vh;
+    height: 100vh;
     min-height: 0;
     float: left;
     position: sticky;
   }
+
+#navmenu{
+  display: flex;
+  flex-grow: 1;
+  position: sticky;
+  top:0;
+}
 
   .sidebar {
     width: 4em;
@@ -62,4 +69,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width:576px) {
+  .sidebar {
+    height: 730vh;
+    min-height: 0;
+    float: left;
+    position: sticky;
+    width: 3em;
+  }
+  .sm-icon{
+    font-size: x-large;}
+  .nav{
+    align-items: center;
+    --bs-nav-link-padding-x: 0;
+  }
+  .xs-card{
+    width: 33.3%;
+  }
+ 
 }
